@@ -7,36 +7,24 @@
       "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:controllers\\cellcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\migrations\\20240828223615_pgprod.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:migrations\\20240828223615_pgprod.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828223615_pgProd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240828223615_pgProd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\data\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:data\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\models\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:models\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|c:\\users\\boris\\source\\repos\\spreadsheet\\data\\spreadsheetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E64E3F-32E9-4C23-A603-4A3EC928E106}|SpreadSheet.csproj|solutionrelative:data\\spreadsheetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240814205842_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240814205842_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828221607_pg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240828221607_pg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,15 +58,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CellViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Models\\CellViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CellViewModel.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Models\\CellViewModel.cs",
-              "RelativeToolTip": "Models\\CellViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "DocumentIndex": 1,
+              "Title": "20240828223615_pgProd.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828223615_pgProd.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240828223615_pgProd.Designer.cs",
+              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828223615_pgProd.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240828223615_pgProd.Designer.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:06:40.965Z",
+              "WhenOpened": "2024-08-28T22:39:12.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240828223615_pgProd.cs",
+              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828223615_pgProd.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240828223615_pgProd.cs",
+              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828223615_pgProd.cs",
+              "RelativeToolTip": "Migrations\\20240828223615_pgProd.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T22:36:15.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240828221607_pg.cs",
+              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828221607_pg.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240828221607_pg.cs",
+              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240828221607_pg.cs",
+              "RelativeToolTip": "Migrations\\20240828221607_pg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T22:16:08.07Z",
               "EditorCaption": ""
             },
             {
@@ -89,97 +103,35 @@
               "RelativeDocumentMoniker": "Controllers\\CellController.cs",
               "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Controllers\\CellController.cs",
               "RelativeToolTip": "Controllers\\CellController.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAIQAAAApAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAtwFkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:00:05.94Z",
+              "WhenOpened": "2024-08-28T22:12:03.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Data\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\Repository\\Repository.cs",
-              "RelativeToolTip": "Data\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:52:20.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Data\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:51:35.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutoMapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Configurations\\AutoMapperConfig.cs",
-              "RelativeDocumentMoniker": "Configurations\\AutoMapperConfig.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Configurations\\AutoMapperConfig.cs",
-              "RelativeToolTip": "Configurations\\AutoMapperConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:37:51.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAkAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAC2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-14T20:29:14.887Z",
+              "WhenOpened": "2024-08-28T22:11:44.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpreadSheetDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\SpreadSheetDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\SpreadSheetDbContext.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Data\\SpreadSheetDbContext.cs",
-              "RelativeToolTip": "Data\\SpreadSheetDbContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBMAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:45:57.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20240814205842_init.cs",
-              "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240814205842_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240814205842_init.cs",
-              "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Migrations\\20240814205842_init.cs",
-              "RelativeToolTip": "Migrations\\20240814205842_init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:58:42.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T20:28:24.812Z",
+              "WhenOpened": "2024-08-28T22:11:12.554Z",
               "EditorCaption": ""
             }
           ]

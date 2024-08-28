@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.JsonPatch;
 using AutoMapper;
 using SpreadSheet.Data.Repository;
 using SpreadSheet.Models;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
+using System;
 
 
 namespace SpreadSheet.Controllers
@@ -94,8 +98,8 @@ namespace SpreadSheet.Controllers
                 X = model.X,
                 Y = model.Y,
                 Content = model.Content,
-                CreatedOn = DateTime.Now,
-                ModifiedOn = DateTime.Now
+                CreatedOn = DateTime.UtcNow,
+                ModifiedOn = DateTime.UtcNow
             };
 
             // Save cell to the database
@@ -131,7 +135,7 @@ namespace SpreadSheet.Controllers
             }
 
             cell.Content = model.Content;
-            cell.ModifiedOn = DateTime.Now;
+            cell.ModifiedOn = DateTime.UtcNow;
             await _cellRepository.UpdateAsync(cell);
 
             // Return the found cell

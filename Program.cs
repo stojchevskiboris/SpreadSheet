@@ -1,5 +1,9 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using SpreadSheet.Configurations;
 using SpreadSheet.Data;
 using SpreadSheet.Data.Repository;
@@ -9,8 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+var connectionString = builder.Configuration.GetConnectionString("prodpostgres");
+
 builder.Services.AddDbContext<SpreadSheetDbContext>(o =>
-    o.UseSqlServer(builder.Configuration.GetConnectionString("dev"))
+    o.UseNpgsql(connectionString)
 );
 
 builder.Services.AddControllers().AddNewtonsoftJson();

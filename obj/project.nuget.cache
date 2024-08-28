@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lBu/Es28e0Jc5GTggH9hZ7SLUkeJVUw+epyfYjNs8tCaZnoQKqGL/kBsnV8NNzdlCnWcdcIstPZXRRxUrFiyTw==",
+  "dgSpecHash": "5Xk1OcF5SUVPbKkB2tktIm+4ccdKtG/y/bk4latnSgcovb0fapMGHBcNPSwnEvHpoys8K3iPkb/K2nEwKgyMDQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Boris\\source\\repos\\SpreadSheet\\SpreadSheet.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,8 @@
     "C:\\Users\\Boris\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Boris\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Boris\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Boris\\.nuget\\packages\\npgsql\\6.0.10\\npgsql.6.0.10.nupkg.sha512",
+    "C:\\Users\\Boris\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.22\\npgsql.entityframeworkcore.postgresql.6.0.22.nupkg.sha512",
     "C:\\Users\\Boris\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Boris\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Boris\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

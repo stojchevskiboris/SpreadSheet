@@ -73,3 +73,5 @@ C:\Users\Boris\source\repos\SpreadSheet\obj\Debug\net6.0\SpreadSheet.pdb
 C:\Users\Boris\source\repos\SpreadSheet\obj\Debug\net6.0\SpreadSheet.genruntimeconfig.cache
 C:\Users\Boris\source\repos\SpreadSheet\obj\Debug\net6.0\ref\SpreadSheet.dll
 C:\Users\Boris\source\repos\SpreadSheet\obj\Debug\net6.0\SpreadSheet.sourcelink.json
+C:\Users\Boris\source\repos\SpreadSheet\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Boris\source\repos\SpreadSheet\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
