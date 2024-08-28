@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpreadSheet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7908762bf89dacc3a3792b227d6b927886c8c252")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpreadSheet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpreadSheet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

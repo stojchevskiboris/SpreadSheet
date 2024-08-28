@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 builder.Services.AddDbContext<SpreadSheetDbContext>(o =>
-    o.UseSqlServer(builder.Configuration.GetConnectionString("SpreadSheetDbConnection"))
+    o.UseSqlServer(builder.Configuration.GetConnectionString("dev"))
 );
 
 builder.Services.AddControllers().AddNewtonsoftJson();

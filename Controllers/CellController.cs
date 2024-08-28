@@ -23,8 +23,8 @@ namespace SpreadSheet.Controllers
 
 
         [HttpGet]
-        [Route("All", Name = "GetAllCells")]
-        public async Task<ActionResult<IEnumerable<Cell>>> GetCellsAsync()
+        [Route("GetAll", Name = "GetAll")]
+        public async Task<ActionResult<IEnumerable<Cell>>> GetAll()
         {
             var cells = await _cellRepository.GetAllAsync();
 
@@ -34,8 +34,8 @@ namespace SpreadSheet.Controllers
 
 
         [HttpGet]
-        [Route("{id:int}", Name = "GetCellById")]
-        public async Task<ActionResult<Cell>> GetCellByIdAsync(int id)
+        [Route("{id:int}", Name = "GetById")]
+        public async Task<ActionResult<Cell>> GetById(int id)
         {
             //BadRequest - 400 - Badrequest - Client error
             if (id <= 0)
@@ -54,123 +54,88 @@ namespace SpreadSheet.Controllers
             return Ok(cell);
         }
 
-        [HttpGet]
-        [Route("{x:int}/{y:int}", Name = "GetCellByCoordinates")]
-        public async Task<ActionResult<Cell>> GetCellByCoordinates(int x, int y)
+        // api/Cell/GetByCoordinates
+        // CellViewModel
+        [HttpPost]
+        [Route("GetByCoordinates", Name = "GetByCoordinates")]
+        public async Task<ActionResult<Cell>> GetByCoordinates(CellViewModel model)
         {
             // Validate the input coordinates (optional)
-            if (x < 0 || y < 0)
+            if (model == null || model.X < 0 || model.Y < 0)
             {
                 return BadRequest("Coordinates must be non-negative.");
             }
 
             // Retrieve the cell by x and y coordinates
             var cell = _cellRepository.GetAllAsync().Result
-                .AsQueryable().Where(cell => cell.X == x && cell.Y == y).FirstOrDefault();
+                .AsQueryable().Where(cell => cell.X == model.X && cell.Y == model.Y).FirstOrDefault();
 
             // Return NotFound if the cell doesn't exist
             if (cell == null)
             {
-                return NotFound($"The cell with coordinates ({x}, {y}) was not found.");
+                return NotFound($"The cell with coordinates ({model.X}, {model.Y}) was not found.");
             }
 
             // Return the found cell
             return Ok(cell);
         }
 
+        [HttpPost]
+        [Route("Create")]
+        public async Task<ActionResult<Cell>> CreateCell(CellViewModel model)
+        {
+            if (model == null || model.X < 0 || model.Y < 0)
+            {
+                return BadRequest("Invalid cell data.");
+            }
 
-        /* 
-         [HttpGet]
-         [Route("{page:int}/{size:int}", Name = "GetFilmsPaginated")]
-         public async Task<ActionResult<IEnumerable<Film>>> GetFilmsPaginatedAsync(int page, int size)
-         {
-             //BadRequest - 400 - Badrequest - Client error
-             if (page <= 0 || size <= 0)
-             {
-                 return BadRequest();
-             }
-             var films = _spreadSheetRepository.GetPaginated(page, size);
-             return Ok(films);
-         }
+            var cell = new Cell
+            {
+                X = model.X,
+                Y = model.Y,
+                Content = model.Content,
+                CreatedOn = DateTime.Now,
+                ModifiedOn = DateTime.Now
+            };
 
-         [HttpPost]
-         [Route("Create")]
-         public async Task<ActionResult<Film>> CreateFilmAsync([FromBody] Film model)
-         {
-             if (model == null)
-                 return BadRequest();
+            // Save cell to the database
+            await _cellRepository.CreateAsync(cell);
 
-             await _spreadSheetRepository.CreateAsync(model);
+            return Ok(cell);
+        }
 
-             //Status - 201
+        // api/Cell/EditById
+        // CellViewModel
+        [HttpPost]
+        [Route("EditById", Name = "EditById")]
+        public async Task<ActionResult<Cell>> EditById(CellViewModel model)
+        {
+            if (model == null)
+            {
+                return BadRequest("Cell model cannot be null. Please provide valid payload.");
+            }
 
-             return Ok(model);
-         }
+            if (model.Id == 0)
+            {
+                return BadRequest("Cell ID must be provided.");
+            }
 
-         [HttpPut]
-         [Route("Update")]
-         public async Task<ActionResult> UpdateFilmAsync([FromBody] Film model)
-         {
-             if (model == null || model.FilmId <= 0)
-                 BadRequest();
+            // Retrieve the cell by id
+            var cell = _cellRepository.GetAllAsync().Result
+                .AsQueryable().Where(cell => cell.Id == model.Id).FirstOrDefault();
 
-             var existing = await _spreadSheetRepository.GetByIdAsync(f => f.FilmId == model.FilmId, true);
+            // Return NotFound if the cell doesn't exist
+            if (cell == null)
+            {
+                return NotFound($"The cell with id ({model.Id}) was not found.");
+            }
 
-             if (existing == null)
-                 return NotFound();
+            cell.Content = model.Content;
+            cell.ModifiedOn = DateTime.Now;
+            await _cellRepository.UpdateAsync(cell);
 
-             var newRecord = _mapper.Map<Film>(model);
-
-             await _spreadSheetRepository.UpdateAsync(newRecord);
-
-             return NoContent();
-         }
-
-         [HttpPatch]
-         [Route("{id:int}/UpdatePartial")]
-         public async Task<ActionResult> UpdateFilmPartialAsync(int id, [FromBody] JsonPatchDocument<Film> patchDocument)
-         {
-             if (patchDocument == null || id <= 0)
-                 BadRequest();
-
-             var existing = await _spreadSheetRepository.GetByIdAsync(s => s.FilmId == id, true);
-
-             if (existing == null)
-                 return NotFound();
-
-             var dto = _mapper.Map<Film>(existing);
-
-             patchDocument.ApplyTo(dto);
-
-             if (!ModelState.IsValid)
-                 return BadRequest(ModelState);
-
-             existing = _mapper.Map<Film>(dto);
-
-             await _spreadSheetRepository.UpdateAsync(existing);
-
-             //204 - NoContent
-             return NoContent();
-         }
-
-
-         [HttpDelete("Delete/{id}", Name = "DeleteFilmById")]
-         public async Task<ActionResult<bool>> DeleteFilmAsync(int id)
-         {
-             //BadRequest - 400 - Badrequest - Client error
-             if (id <= 0)
-                 return BadRequest();
-
-             var film = await _spreadSheetRepository.GetByIdAsync(s => s.FilmId == id);
-             //NotFound - 404 - NotFound - Client error
-             if (film == null)
-                 return NotFound($"The film with id {id} is not found");
-
-             await _spreadSheetRepository.DeleteAsync(film);
-
-             //OK - 200 - Success
-             return Ok(true);
-         }*/
-
+            // Return the found cell
+            return Ok(cell);
+        }
     }
 }

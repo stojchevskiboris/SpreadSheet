@@ -8,6 +8,10 @@ namespace SpreadSheet.Configurations
         public AutoMapperConfig()
         {
             CreateMap<Cell, Cell>();
+            CreateMap<CellViewModel, CellViewModel>();
+            CreateMap<Cell, CellViewModel>();
+            CreateMap<CellViewModel, Cell>();
+
         }
     }
 }
